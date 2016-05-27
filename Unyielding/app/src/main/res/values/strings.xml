@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Unyielding</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+
+    <!-- Error Messages -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+     <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <!-- Error Messages end -->
+
+    <!-- Intent Service -->
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="geofence_transition_entered">entered</string>
+    <string name="geofence_transition_exited">exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Intent Service end -->
+
+</resources>
